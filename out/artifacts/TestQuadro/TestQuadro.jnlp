@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TestQuadro.jnlp">
+  <information>
+    <title>TestQuadro</title>
+    <vendor>Unknown</vendor>
+    <description>TestQuadro</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TestQuadro.jar" size="8566" download="eager" />
+    <jar href="jssc-2.8.0.jar" size="153562" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="1255" height="743" main-class="sample.Main"  name="TestQuadro" />
+  <update check="background"/>
+</jnlp>
